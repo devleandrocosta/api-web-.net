@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Faculdade\\bdNoSql\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj": {}
+    "D:\\minhas coisas\\faculdade\\1. materias\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj": {}
   },
   "projects": {
-    "C:\\Faculdade\\bdNoSql\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj": {
+    "D:\\minhas coisas\\faculdade\\1. materias\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Faculdade\\bdNoSql\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj",
+        "projectUniqueName": "D:\\minhas coisas\\faculdade\\1. materias\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj",
         "projectName": "APImongo",
-        "projectPath": "C:\\Faculdade\\bdNoSql\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj",
+        "projectPath": "D:\\minhas coisas\\faculdade\\1. materias\\api-web-.net\\APImongo\\APImongo\\APImongo.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Faculdade\\bdNoSql\\api-web-.net\\APImongo\\APImongo\\obj\\",
+        "outputPath": "D:\\minhas coisas\\faculdade\\1. materias\\api-web-.net\\APImongo\\APImongo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
